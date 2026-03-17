@@ -48,6 +48,14 @@ Banco de dados em memória **H2** com console disponível em **http://localhost:
 - Username: `sa`
 - Password: (vazio)
 
+## 📸 Screenshots
+
+![Home](docs/images/01.png)
+
+![Produtos](docs/images/02.png)
+
+![Categorias](docs/images/03.png)
+
 ## 📝 Licença
 
 MIT License @edudrolhe
