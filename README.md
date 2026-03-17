@@ -21,22 +21,6 @@
 | H2 Database | 2.1.214 |
 | Maven | 3.9+ |
 
-## 📦 Estrutura do Projeto
-
-```
-petshoplover/
-├── src/main/java/com/example/petshoplover/
-│   ├── controller/    # Controllers REST
-│   ├── model/         # Entidades JPA
-│   ├── dto/           # Data Transfer Objects
-│   ├── repository/   # Repositories JPA
-│   └── config/        # Configurações
-├── src/main/resources/
-│   ├── static/        # Arquivos estáticos (HTML, CSS, Images)
-│   └── application.properties
-└── pom.xml
-```
-
 ## 🔌 Endpoints da API
 
 ### Produtos
@@ -53,20 +37,8 @@ petshoplover/
 - `PUT /api/categories/{id}` - Atualizar categoria
 - `DELETE /api/categories/{id}` - Deletar categoria
 
-## ▶️ Como Executar
 
-```bash
-# Clone o repositório
-git clone https://github.com/Edudrolhe/PetShopLover.git
 
-# Entre no diretório
-cd petshoplover
-
-# Execute o projeto
-./mvnw spring-boot:run
-```
-
-Acesse: **http://localhost:8080**
 
 ## 🗄️ Banco de Dados
 
@@ -78,4 +50,4 @@ Banco de dados em memória **H2** com console disponível em **http://localhost:
 
 ## 📝 Licença
 
-MIT License
+MIT License @edudrolhe
